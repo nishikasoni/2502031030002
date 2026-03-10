@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ShopSphere | Product Details</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container navbar">
+      <a href="index.html" class="logo">Shop<span>Sphere</span></a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="product.html">Product</a>
+        <a href="cart.html">Cart</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <a href="login.html">Login</a>
+        <a href="signup.html" class="btn">Signup</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container page-hero-box">
+        <div class="breadcrumb"><a href="index.html">Home</a><span>/</span><a href="products.html">Products</a><span>/</span><span>Air Max Urban Shoes</span></div>
+        <h1 class="section-title">Product details page</h1>
+        <p class="section-subtitle">A modern product page with gallery, badges, pricing, purchase UI, features, and extra information blocks.</p>
+      </div>
+    </section>
+
+    <section class="section-sm">
+      <div class="container detail-layout">
+        <div class="card product-gallery">
+          <div class="gallery-main">
+            <img src="images/product-1.svg" alt="Air Max Urban Shoes main preview" />
+          </div>
+          <div class="gallery-thumbs">
+            <img src="images/product-1.svg" alt="Product thumbnail 1" />
+            <img src="images/product-8.svg" alt="Product thumbnail 2" />
+            <img src="images/product-4.svg" alt="Product thumbnail 3" />
+          </div>
+        </div>
+
+        <div class="product-info">
+          <span class="eyebrow">Featured Product</span>
+          <h1>Air Max Urban Shoes</h1>
+          <div class="detail-meta">
+            <span class="rating">★★★★★ 4.9 (248 reviews)</span>
+            <span>SKU: SS-URB-102</span>
+            <span>Category: Fashion</span>
+          </div>
+          <div class="price-row" style="justify-content: flex-start; gap: 1rem;">
+            <span class="price">₹2,499</span>
+            <span class="old-price">₹3,299</span>
+            <span class="badge">In Stock</span>
+          </div>
+          <p class="muted">Built for daily comfort and a modern streetwear look, these shoes feature a lightweight sole, breathable upper, and a clean premium design for all-day wear.</p>
+
+          <ul class="feature-list">
+            <li>Soft cushioned insole for long-lasting comfort</li>
+            <li>Premium breathable fabric with modern finish</li>
+            <li>Anti-slip outsole for stable everyday usage</li>
+            <li>Minimal clean styling for casual and urban outfits</li>
+          </ul>
+
+          <div class="mini-grid" style="grid-template-columns: 140px 1fr; margin-bottom: 1.2rem;">
+            <div>
+              <label for="size"><strong>Size</strong></label>
+              <select id="size" style="margin-top: 0.5rem; width: 100%; padding: 0.9rem; border-radius: 14px; border: 1px solid var(--line);">
+                <option>UK 7</option>
+                <option>UK 8</option>
+                <option>UK 9</option>
+                <option>UK 10</option>
+              </select>
+            </div>
+            <div>
+              <label for="qty"><strong>Quantity</strong></label>
+              <div class="qty-box" style="margin-top: 0.5rem;">
+                <select id="qty">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-actions">
+            <a href="cart.html" class="btn">Add to Cart</a>
+            <a href="products.html" class="btn-light">Continue Shopping</a>
+          </div>
+
+          <div class="note-box" style="margin-top: 1.4rem;">Free shipping on prepaid orders. Easy 7-day return policy. This page is UI-only and built with HTML + CSS.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-sm">
+      <div class="container info-tabs">
+        <article class="card info-card">
+          <h3>Description</h3>
+          <p class="muted">The Air Max Urban Shoes are made for shoppers who want comfort and style together. The product details layout is designed to feel modern, spacious, and brand-ready while staying clean and easy to customize.</p>
+        </article>
+        <article class="card info-card">
+          <h3>Specifications</h3>
+          <div class="pill-list">
+            <span class="pill">Breathable Mesh</span>
+            <span class="pill">Lightweight Sole</span>
+            <span class="pill">Streetwear Design</span>
+            <span class="pill">Comfort Fit</span>
+          </div>
+        </article>
+        <article class="card info-card">
+          <h3>Customer Reviews</h3>
+          <p class="muted">“Looks premium and very comfortable.” • “The design is sleek and the page layout makes the product shine.” • “Perfect for a responsive e-commerce portfolio.”</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer section-sm">
+    <div class="container footer-bottom">
+      <p>© 2026 ShopSphere. Product Details Page.</p>
+      <a href="products.html">Browse More Products</a>
+    </div>
+  </footer>
+</body>
+</html>
